@@ -9,7 +9,7 @@ import ErrorBoundary from '../components/ErrorBoundary'
 import { setSearchField, requestRobot } from '../redux/actions/actions'
 
 import './App.css'
-import 'tachyons';
+import 'tachyons' 
 
 class App extends Component {
 

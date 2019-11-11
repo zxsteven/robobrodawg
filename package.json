@@ -10,7 +10,8 @@
     "redux": "^4.0.4",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
-    "styled-components": "^4.4.0"
+    "styled-components": "^4.4.0",
+    "tachyons": "^4.11.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -33,7 +34,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "tachyons": "^4.11.1"
-  }
+  "devDependencies": {}
 }
