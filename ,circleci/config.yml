@@ -1,0 +1,20 @@
+version: 2
+jobs:
+  dave:
+    docker:
+      - image: circleci/ruby:2.4.1
+    steps:
+      - checkout
+      - run: echo "Sup dawg"
+  steve:
+    docker:
+      - image: circleci/ruby:2.4.1
+    steps:
+      - checkout
+      - run: echo "Sup brodawg"
+  workflows:
+    version: 2
+    dave_steve:
+      jobs:
+        - dave
+        - sally
