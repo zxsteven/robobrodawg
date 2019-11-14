@@ -12,9 +12,9 @@ jobs:
     steps:
       - checkout
       - run: echo "Sup brodawg"
-  workflows:
-    version: 2
-    dave_steve:
-      jobs:
-        - dave
-        - sally
+workflows:
+  version: 2
+  dave_steve:
+    jobs:
+      - dave
+      - sally
